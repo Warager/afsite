@@ -1,5 +1,5 @@
 """
-Django settings for afk project.
+Django settings for af2 project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'afk.af-kvadr',
+    'af2.af2app',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -51,9 +51,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'afk.urls'
+ROOT_URLCONF = 'af2.urls'
 
-WSGI_APPLICATION = 'afk.wsgi.application'
+WSGI_APPLICATION = 'af2.wsgi.application'
 
 
 # Database

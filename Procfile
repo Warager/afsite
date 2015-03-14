@@ -1,1 +1,1 @@
-web: gunicorn afk.wsgi --log-file -
+web: gunicorn af2.wsgi --log-file -
