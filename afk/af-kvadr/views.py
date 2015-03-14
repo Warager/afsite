@@ -8,7 +8,7 @@ def home(request):
     data = {
         "current_page": 'home'
     }
-    return render(request, 'afcapp/home.html', data)
+    return render(request, 'af-kvadr/home.html', data)
 
 
 def about(request):
@@ -18,7 +18,7 @@ def about(request):
     data = {
         "current_page": 'about'
     }
-    return render(request, 'afcapp/about.html', data)
+    return render(request, 'af-kvadr/about.html', data)
 
 
 def scope(request):
@@ -28,7 +28,7 @@ def scope(request):
     data = {
         "current_page": 'scope'
     }
-    return render(request, 'afcapp/scope.html', data)
+    return render(request, 'af-kvadr/scope.html', data)
 
 
 def contact(request):
@@ -38,11 +38,11 @@ def contact(request):
     data = {
         "current_page": 'contact'
     }
-    return render(request, 'afcapp/contact.html', data)
+    return render(request, 'af-kvadr/contact.html', data)
 
 
 def zurb(request):
     """
     Renders home page
     """
-    return render(request, 'afcapp/zurb.html',)
+    return render(request, 'af-kvadr/zurb.html',)

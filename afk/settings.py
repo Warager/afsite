@@ -1,5 +1,5 @@
 """
-Django settings for afc project.
+Django settings for afk project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'afc.af-kvadr',
+    'afk.af-kvadr',
 )
 
 MIDDLEWARE_CLASSES = (

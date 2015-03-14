@@ -1,5 +1,5 @@
 """
-WSGI config for afc project.
+WSGI config for afk project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
