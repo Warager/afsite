@@ -1,0 +1,169 @@
+h1, h2, h3, h4, h5, h6, body, a, p, ul, li, input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  color: #222;
+  line-height: 30px;
+}
+span {
+  color: #4d4d4d
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  /*width: 100%;*/
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  /*background-color: #f5f5f5;*/
+}
+.home-greeting {
+  padding: 40px 15px;
+  text-align: center;
+}
+.about-text {
+  padding: 40px 15px;
+  /*text-align: center;*/
+}
+.work_with_us {
+  line-height: 20px;
+  font-size: 16px;
+}
+.capabilities {
+  margin-bottom: 3px;
+}
+ul.vitals{
+  list-style:none;
+  font-size: 18px;
+  vertical-align: text-top;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+i {
+  padding-right: 7px;
+}
+
+a,
+a:visited {
+  color: #4d4d4d;
+  /*text-decoration: underline;*/
+}
+
+.btn:hover,
+a:hover,
+a:focus {
+  color: #fb5d35;
+  /*cursor: default;*/
+}
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+h1 {
+  border-bottom: 2px solid #ddd;
+  color: #888;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 880px;
+  padding: 0 40px;
+  width: 80%;
+}
+
+.glyph {
+  border-bottom: 1px dotted #ccc;
+  padding: 10px 0 20px;
+  margin-bottom: 20px;
+}
+
+.preview-glyphs { vertical-align: bottom; }
+
+.preview-scale {
+  color: #888;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.step {
+  display: inline-block;
+  /*line-height: 1;*/
+  width: 10%;
+}
+
+
+.size-12 { font-size: 12px; }
+
+.size-14 { font-size: 14px; }
+
+.size-16 { font-size: 16px; }
+
+.size-18 { font-size: 18px; }
+
+.size-21 { font-size: 21px; }
+
+.size-24 { font-size: 24px; }
+
+.size-36 { font-size: 36px; }
+
+.size-48 { font-size: 48px; }
+
+.size-60 { font-size: 60px; }
+
+.size-72 { font-size: 72px; }
+
+
+.usage { margin-top: 10px; }
+
+.usage input {
+  font-family: monospace;
+  margin-right: 3px;
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.usage .point { width: 150px; }
+
+.usage .class { width: 250px; }
+
+.paragraph,
+.number{
+  color: #fb5d35;
+}
+.interval-15 {
+  line-height: 1.5;
+}
+.icons {
+  color: #669999
+}
+
+.bg-warning{
+  background-color: #fb5d35;
+}
