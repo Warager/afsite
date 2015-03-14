@@ -53,7 +53,7 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'afk.urls'
 
-WSGI_APPLICATION = 'afc.wsgi.application'
+WSGI_APPLICATION = 'afk.wsgi.application'
 
 
 # Database

@@ -1,1 +1,1 @@
-web: gunicorn bars.wsgi --log-file -
+web: gunicorn afk.wsgi --log-file -
